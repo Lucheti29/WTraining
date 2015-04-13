@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup" >
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="315dp"
+        android:id="@+id/et_signup_user"
+        android:text="@string/signup_user"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/gray" />
+
+    <EditText
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_signup_pass"
+        android:text="@string/signup_pass"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/et_signup_user"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/gray" />
+
+    <EditText
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_signup_cpass"
+        android:text="@string/signup_cpass"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/et_signup_pass"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_bottom"
+        android:id="@+id/tv_signup_terms"
+        android:layout_marginTop="42dp"
+        android:textColor="@color/stronggray"
+        android:layout_below="@+id/et_signup_cpass"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_signup"
+        android:background="@color/blue"
+        android:id="@+id/bn_signup_accept"
+        android:textColor="@color/white"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/tv_signup_terms"
+        android:layout_alignLeft="@+id/tv_signup_terms"
+        android:layout_alignStart="@+id/tv_signup_terms"
+        android:layout_alignRight="@+id/tv_signup_terms"
+        android:layout_alignEnd="@+id/tv_signup_terms" />
+</RelativeLayout>

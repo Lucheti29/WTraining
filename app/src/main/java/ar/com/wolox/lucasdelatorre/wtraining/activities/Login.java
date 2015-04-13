@@ -92,8 +92,8 @@ public class Login extends Activity{
     }
 
     private void openSignup() {
-        //Intent intent = new Intent(this, Signup.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, Signup.class);
+        startActivity(intent);
     }
 
     private MessageType checkCredentials(String username, String password)

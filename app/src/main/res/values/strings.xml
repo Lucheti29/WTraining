@@ -15,4 +15,13 @@
     <string name="login_invaliduser">Invalid username</string>
     <string name="login_wronguser">Wrong username</string>
     <string name="login_wrongpass">Wrong password</string>
+
+    <string name="signup_label">Signup</string>
+    <string name="signup_user">Email</string>
+    <string name="signup_pass">Password</string>
+    <string name="signup_cpass">Confirm password</string>
+    <string name="signup_emptyuser">Email cannot be empty</string>
+    <string name="signup_emptypass">Password cannot be empty</string>
+    <string name="signup_cpassnotmatch">Passwords not match</string>
+    <string name="signup_userexists">That email exists</string>
 </resources>
