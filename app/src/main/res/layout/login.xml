@@ -29,7 +29,8 @@
         android:layout_alignEnd="@+id/imageView"
         android:layout_alignLeft="@+id/imageView"
         android:layout_alignStart="@+id/imageView"
-        android:text="@string/login_user" />
+        android:text="@string/login_user"
+        android:textColor="@color/gray" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -43,7 +44,8 @@
         android:layout_alignEnd="@+id/imageView"
         android:layout_alignLeft="@+id/et_user"
         android:layout_alignStart="@+id/et_user"
-        android:text="@string/login_pass" />
+        android:text="@string/login_pass"
+        android:textColor="@color/gray" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -75,6 +77,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/bn_login"
-        android:layout_alignEnd="@+id/bn_login" />
+        android:layout_alignEnd="@+id/bn_login"
+        android:textColor="@color/white" />
 
 </RelativeLayout>
